@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>user registration</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<head>
+<body>
+<script>
+function myFunction()
+{
+alert("Successful Registration");
+}
+</script>
+<form>
+<fieldset>
+<legend>Personal information:</legend>
+<table>
+<tr>
+<th colspan=3><marquee behavior="scroll" direction="left">User Details</marquee></th>
+<td colspan="10" rowspan="10" id="main"></td>
+</tr>
+<tr>
+<td><p>username:</p></td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td><p>password:</p></td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td><p>secret question:</p></td>
+<td><select>
+<option>----- </option>
+<option> your favourite actor</option>
+<option>your first school name </option>
+<option> your favourite movie</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><p>secret answer:</p></td>
+<td><input type="text" name="secret_answer"></td>
+</tr>
+<tr>
+<td ><p>gender:</p></td>
+<td ><input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female">Female
+</td>
+</tr>
+<tr>
+<td ><p>date of birth:</p> <a href="calender.html"  target='myIframe'  ><img src="icon.png" alt="calender"></a></td>
+<td ><select>
+<option>date</option>
+<option>1</option>
+<option>2 </option>
+<option> 3</option>
+<option> 4</option>
+<option> 5</option>
+<option> 6</option>
+<option> 7</option>
+<option> 8</option>
+</select>
+<select>
+<option>month</option>
+<option>1</option>
+<option>2 </option>
+<option> 3</option>
+<option> 4</option>
+<option> 5</option>
+<option> 6</option>
+<option> 7</option>
+<option> 8</option>
+</select>
+<select>
+<option>year</option>
+<option>91</option>
+<option>92 </option>
+<option>9 3</option>
+<option> 94</option>
+<option>95</option>
+<option>96</option>
+<option>97</option>
+<option>98</option>
+</select>
+</td>
+<td>
+<iframe name='myIframe'></iframe>
+</td>
+</tr>
+<tr>
+<td><p>email id </p></td>
+<td><input type="text" name="email_id"></td>
+</tr>
+<tr>
+<td><p>phone number </p></td>
+<td><input type="text" name="phone"></td>
+</tr>
+<tr>
+<td><p>hobbies</p></td>
+<td>
+<select multiple>
+<option>hobby</option>
+<option>dancing</option>
+<option>reading</option>
+<option> painting</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><p style="color:blue; font-size:10">Residential Address</p></td>
+</tr>
+<tr>
+<td><p>address </p></td>
+<td><input type="text" name="address"></td>
+</tr>
+<tr>
+<td ><p>city:</p></td>
+<td ><select>
+<option>city</option>
+<option>mumbai</option>
+<option>navimumbai </option>
+<option> chennai</option>
+<option> bangalore</option>
+<option> kolkatta</option>
+</select>
+</td>
+</tr>
+<tr>
+<td ><p>state:</p></td>
+<td ><select>
+<option>state</option>
+<option>maharashtra</option>
+<option>hyderbad </option>
+<option> tamilnadu</option>
+<option>bengal</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan=2>
+<h3>Subscription to Special Offers<h3>
+</td>
+</tr>
+<tr>
+<td>
+<input type="checkbox" name="Subscription" value="email"> Instant Update through Email<br>
+<input type="checkbox" name="Subscription" value="sms"> Instant Updates through SMS<br>
+<input type="checkbox" name="Subscription" value="Agree">I Agree<br>
+<a href="rules.html"><p style="color:red">rules and regulations</p></a> 
+</td>
+</tr>
+<tr>
+<td><button type="submit" onclick="myFunction()" >submit</button></td>
+<td><button type="reset" value="Reset">Reset</button>
+</td>
+</tr>
+<table>
+</fieldset>
+</form>
+</body>
+</html>
+

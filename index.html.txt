@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<table id="outer_table">
+<tr>
+<td rowspan=2>
+</td>
+<td rowspan=2></td>
+</tr>
+</body>
+</html>
